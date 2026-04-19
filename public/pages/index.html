@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NOACCO — Loja Online de Moda Autoral</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Archivo+Narrow:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/Home.css" />
+</head>
+<body>
+
+  <header class="cabecalho cabecalho--claro">
+    <nav class="navbar navbar-expand-md w-100">
+      <div class="container-fluid">
+
+        <a href="index.html" class="logo navbar-brand">NOACCO</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuNav">
+          <ul class="navbar-nav me-auto menu">
+            <li class="nav-item"><a class="nav-link" href="colecao.html">Coleção</a></li>
+            <li class="nav-item"><a class="nav-link" href="lookbook.html">Lookbook</a></li>
+            <li class="nav-item"><a class="nav-link" href="sobre.html">Ateliê</a></li>
+          </ul>
+          <div class="barra-utilidades">
+            <a href="busca.html">Buscar</a>
+            <a href="conta.html">Conta</a>
+            <a href="carrinho.html">Carrinho <span class="carrinho-badge">3</span></a>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="../img/capasite.avif" alt="NOACCO — Coleção Outono Inverno 2026" />
+    <div class="hero__texto">
+      <p class="hero__etiqueta">Nova Coleção — Outono Inverno 2026</p>
+      <h1 class="hero__titulo">A Sombra<br><em>Silenciosa</em></h1>
+      <p class="hero__subtitulo">Edição Limitada — Frete Grátis</p>
+      <a href="colecao.html" class="btn btn-branco hero__btn">Comprar Agora</a>
+    </div>
+  </section>
+
+  <div class="intro">
+    <p class="intro__etiqueta">Outono Inverno 2026 — Disponível Agora</p>
+    <h2 class="intro__titulo">
+      Peças únicas, criadas com<br><em>precisão absoluta.</em>
+    </h2>
+  </div>
+
+  <!-- grade de produtos: 1 coluna no mobile, 2 no desktop -->
+  <section class="grade-bs">
+    <div class="container-fluid">
+      <div class="row g-4">
+
+        <div class="col-12 col-md-6">
+          <div class="grade__item grade__item--largo">
+            <a href="produto.html">
+              <img src="../img/blusas.jpg" alt="Conjunto Noturno" />
+              <div class="grade__item__overlay"></div>
+              <div class="grade__item__info">
+                <p class="grade__item__nome">Conjunto Noturno</p>
+                <p class="grade__item__preco">R$ 9.600</p>
+                <p class="grade__item__parcelas">6x de R$ 1.600</p>
+              </div>
+              <button class="grade__item__comprar">Adicionar ao Carrinho</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="grade__item">
+            <a href="produto.html">
+              <span class="grade__item__tag">Novo</span>
+              <img src="../img/look1azul.jpeg" alt="Casaco Sóbrio" />
+              <div class="grade__item__overlay"></div>
+              <div class="grade__item__info">
+                <p class="grade__item__nome">Casaco Sóbrio</p>
+                <p class="grade__item__preco">R$ 8.900</p>
+                <p class="grade__item__parcelas">6x de R$ 1.483</p>
+              </div>
+              <button class="grade__item__comprar">Adicionar ao Carrinho</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="grade__item">
+            <a href="produto.html">
+              <span class="grade__item__tag grade__item__tag--destaque">Mais Vendido</span>
+              <img src="../img/look3.jpeg" alt="Vestido Meia-Noite" />
+              <div class="grade__item__overlay"></div>
+              <div class="grade__item__info">
+                <p class="grade__item__nome">Vestido Meia-Noite</p>
+                <p class="grade__item__preco">R$ 6.200</p>
+                <p class="grade__item__parcelas">6x de R$ 1.033</p>
+              </div>
+              <button class="grade__item__comprar">Adicionar ao Carrinho</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="grade__item">
+            <a href="produto.html">
+              <img src="../img/look5amarelo.jpeg" alt="Colete Noir" />
+              <div class="grade__item__overlay"></div>
+              <div class="grade__item__info">
+                <p class="grade__item__nome">Colete Noir</p>
+                <p class="grade__item__preco">R$ 4.800</p>
+                <p class="grade__item__parcelas">6x de R$ 800</p>
+              </div>
+              <button class="grade__item__comprar">Adicionar ao Carrinho</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="grade__item">
+            <a href="produto.html">
+              <img src="../img/look4flor.jpeg" alt="Conjunto Dia" />
+              <div class="grade__item__overlay"></div>
+              <div class="grade__item__info">
+                <p class="grade__item__nome">Conjunto Dia</p>
+                <p class="grade__item__preco">R$ 7.200</p>
+                <p class="grade__item__parcelas">6x de R$ 1.200</p>
+              </div>
+              <button class="grade__item__comprar">Adicionar ao Carrinho</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="grade__item">
+            <a href="produto.html">
+              <span class="grade__item__tag grade__item__tag--promocao">-20%</span>
+              <img src="../img/look6rosa.jpeg" alt="Calça Estruturada" />
+              <div class="grade__item__overlay"></div>
+              <div class="grade__item__info">
+                <p class="grade__item__nome">Calça Estruturada</p>
+                <p class="grade__item__preco-antigo">R$ 4.250</p>
+                <p class="grade__item__preco">R$ 3.400</p>
+                <p class="grade__item__parcelas">6x de R$ 567</p>
+              </div>
+              <button class="grade__item__comprar">Adicionar ao Carrinho</button>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="categorias">
+    <h2 class="categorias__titulo">Compre por Categoria</h2>
+    <div class="categorias__grade">
+      <a href="colecao.html?cat=casacos" class="categoria-card">
+        <img src="../img/look1azul.jpeg" alt="Casacos" />
+        <div class="categoria-card__overlay"></div>
+        <h3>Casacos</h3>
+      </a>
+      <a href="colecao.html?cat=vestidos" class="categoria-card">
+        <img src="../img/look3.jpeg" alt="Vestidos" />
+        <div class="categoria-card__overlay"></div>
+        <h3>Vestidos</h3>
+      </a>
+      <a href="colecao.html?cat=conjuntos" class="categoria-card">
+        <img src="../img/blusas.jpg" alt="Conjuntos" />
+        <div class="categoria-card__overlay"></div>
+        <h3>Conjuntos</h3>
+      </a>
+      <a href="colecao.html?cat=calcas" class="categoria-card">
+        <img src="../img/look6rosa.jpeg" alt="Calças" />
+        <div class="categoria-card__overlay"></div>
+        <h3>Calças</h3>
+      </a>
+    </div>
+  </section>
+
+  <section class="declaracao">
+    <blockquote class="declaracao__frase">
+      "O luxo verdadeiro está na <em>qualidade impecável."</em>
+    </blockquote>
+    <div class="declaracao__corpo">
+      <p>NOACCO é uma marca de moda autoral brasileira dedicada à criação de peças atemporais. Cada item é produzido em edição limitada, com foco em qualidade, durabilidade e design minimalista.</p>
+      <p>Todas as nossas peças são confeccionadas no Brasil com materiais de origem certificada. Trabalhamos com edições pequenas para garantir exclusividade e reduzir desperdício.</p>
+      <a href="sobre.html" class="btn">Conheça Nossa História</a>
+    </div>
+  </section>
+
+  <div class="faixa" aria-hidden="true">
+    <div class="faixa__trilha">
+      <span>Frete Grátis Acima de R$ 500</span><span class="divisor">—</span>
+      <span>Parcele em até 6x Sem Juros</span><span class="divisor">—</span>
+      <span>Troca Grátis em 30 Dias</span><span class="divisor">—</span>
+      <span>Edição Limitada</span><span class="divisor">—</span>
+      <span>Moda Autoral Brasileira</span><span class="divisor">—</span>
+      <span>Frete Grátis Acima de R$ 500</span><span class="divisor">—</span>
+      <span>Parcele em até 6x Sem Juros</span><span class="divisor">—</span>
+      <span>Troca Grátis em 30 Dias</span><span class="divisor">—</span>
+      <span>Edição Limitada</span><span class="divisor">—</span>
+      <span>Moda Autoral Brasileira</span><span class="divisor">—</span>
+    </div>
+  </div>
+
+  <section class="tira-lookbook">
+    <p class="tira-lookbook__etiqueta">Lookbook — Outono 2026</p>
+    <div class="tira-lookbook__grade">
+      <div class="tira-lookbook__item"><img src="../img/capasite.avif" alt="Look 01" /></div>
+      <div class="tira-lookbook__item"><img src="../img/look5amarelo.jpeg" alt="Look 02" /></div>
+      <div class="tira-lookbook__item"><img src="../img/look1azul.jpeg" alt="Look 03" /></div>
+      <div class="tira-lookbook__item"><img src="../img/look4flor.jpeg" alt="Look 04" /></div>
+    </div>
+    <div class="tira-lookbook__rodape">
+      <a href="lookbook.html" class="btn btn-branco">Ver Lookbook Completo</a>
+    </div>
+  </section>
+
+  <footer class="rodape">
+    <div class="rodape__topo">
+      <nav class="rodape__coluna">
+        <h4>Comprar</h4>
+        <ul>
+          <li><a href="colecao.html">Nova Coleção</a></li>
+          <li><a href="colecao.html?cat=casacos">Casacos</a></li>
+          <li><a href="colecao.html?cat=vestidos">Vestidos</a></li>
+          <li><a href="colecao.html?cat=calcas">Calças</a></li>
+          <li><a href="colecao.html?sale=true">Outlet</a></li>
+        </ul>
+      </nav>
+      <nav class="rodape__coluna">
+        <h4>Ajuda</h4>
+        <ul>
+          <li><a href="faq.html">Perguntas Frequentes</a></li>
+          <li><a href="envio.html">Envio e Entrega</a></li>
+          <li><a href="trocas.html">Trocas e Devoluções</a></li>
+          <li><a href="tamanhos.html">Guia de Tamanhos</a></li>
+          <li><a href="contato.html">Fale Conosco</a></li>
+        </ul>
+      </nav>
+      <nav class="rodape__coluna">
+        <h4>Sobre a NOACCO</h4>
+        <ul>
+          <li><a href="sobre.html">Nossa História</a></li>
+          <li><a href="sobre.html#atelie">O Ateliê</a></li>
+          <li><a href="lookbook.html">Lookbook</a></li>
+        </ul>
+      </nav>
+      <div class="rodape__coluna">
+        <h4>Newsletter</h4>
+        <p style="font-size:0.7rem; line-height:1.6; color:#666; margin-bottom:1rem;">Receba novidades, lançamentos exclusivos e descontos especiais.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Seu e-mail" required />
+          <button type="submit" class="btn btn-solido">Inscrever</button>
+        </form>
+      </div>
+    </div>
+    <div class="rodape__base">
+      <p class="rodape__copyright">© 2026 NOACCO. Todos os direitos reservados.</p>
+      <nav class="rodape__redes">
+        <a href="#">Instagram</a>
+        <a href="#">Pinterest</a>
+        <a href="#">Facebook</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
